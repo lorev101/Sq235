@@ -89,6 +89,30 @@ function PasticceriaLandingPage() {
             px: 3
           }}
         >
+          <Box sx={{ paddingBottom: 2 }}>
+            <Link
+              href="/prodotti"
+              style={{
+                textDecoration: 'none',
+                fontFamily: 'Playfair Display, cursive',
+                fontWeight: 700,
+                borderRadius: 3,
+                borderWidth: 2,
+                borderColor: '#8e6e53',
+                color: '#8e6e53',
+                fontSize: '1.1rem',
+                letterSpacing: 1,
+                backgroundColor: 'transparent',
+                transition: 'all 0.3s',
+                boxShadow: 'none',
+               
+            
+              }}
+            >
+             
+                Scopri la nostra arte
+            </Link>
+          </Box>
           <Box
             sx={{
               display: 'flex',
